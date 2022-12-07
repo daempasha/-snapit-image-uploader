@@ -7,7 +7,12 @@ const Dropzone = () => {
     const onDrop = useCallback((acceptedFiles: any) => {
         // Do something with the files
     }, [])
-    const { getRootProps, getInputProps, isDragActive, acceptedFiles, open, } = useDropzone({ onDrop })
+    const { getRootProps, getInputProps, open, } = useDropzone({
+        onDrop, accept: {
+            'image/png': ['.png'],
+            'image/jpeg': ['.jpeg']
+        }
+    })
 
     return (
         <>
