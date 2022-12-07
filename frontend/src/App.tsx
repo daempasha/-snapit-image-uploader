@@ -1,17 +1,18 @@
 import React from 'react';
 import Card from 'components/Card/card.component';
 import CardContainer from 'components/CardContainer/cardcontainer.component';
-
+import Dropzone from 'components/Dropzone/dropzone.component';
 function App() {
   return (
-    <div className="bg-gray-200 flex flex-col min-h-screen h-screen">
+    <div className="bg-gray-200 flex flex-col min-h-screen h-screen font-sans">
 
       <main className='flex-1 w-full'>
 
-        <CardContainer> 
+        <CardContainer>
           <Card>
-            <h1 className="text-center font-bold text-lg">Upload your image</h1>
-            <p className="text-sm">File should be .jpeg, .png</p>
+            <h1 className="text-center font-medium text-xl">Upload your image</h1>
+            <p className="text-center text-xs my-3 text-gray-500">File should be .jpeg, .png</p>
+            <Dropzone />
           </Card>
 
         </CardContainer>
