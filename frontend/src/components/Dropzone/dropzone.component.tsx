@@ -1,17 +1,23 @@
 import { useCallback } from "react"
 import { useDropzone } from "react-dropzone"
-import { IoMdImage } from "react-icons/io"
 import ImageIcon from "icons/image.svg"
+import { useStore } from "store"
 
 const Dropzone = () => {
-    const onDrop = useCallback((acceptedFiles: any) => {
-        // Do something with the files
+    const setState = useStore(store => store.setState)
+    const setFileToUpload = useStore(store => store.setFileToUpload)
+    const onDrop = useCallback((acceptedFiles: File[]) => {
+        const file = acceptedFiles[0];
+        setFileToUpload(file)
+        setState("uploading");
+
     }, [])
     const { getRootProps, getInputProps, open, } = useDropzone({
         onDrop, accept: {
             'image/png': ['.png'],
             'image/jpeg': ['.jpeg']
-        }
+        },
+        multiple: false
     })
 
     return (
