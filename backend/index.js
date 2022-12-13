@@ -19,7 +19,7 @@ app.use(cors({
     origin: "https://snapit-image-uploader-frontend.onrender.com"
 }))
 app.use(express.json())
-const port = 8000
+const port = process.env.PORT || 3001
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
