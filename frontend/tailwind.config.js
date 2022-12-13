@@ -7,7 +7,17 @@ module.exports = {
     fontFamily: {
       "sans": ["Poppins"]
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        progress: {
+          '0%': { left: "-50%" },
+          '100%': { left: "100%" }
+        }
+      },
+      animation: {
+        progress: "progress 1s linear infinite",
+      }
+    },
   },
   plugins: [],
 }
