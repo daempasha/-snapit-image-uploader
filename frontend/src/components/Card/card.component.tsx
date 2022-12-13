@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 type CardProps = React.HTMLAttributes<HTMLDivElement>
 
 const Card = ({ children, ...cardProps }: CardProps) => {
