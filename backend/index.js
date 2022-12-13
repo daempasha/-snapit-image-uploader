@@ -15,9 +15,7 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
-app.use(cors({
-    origin: "https://snapit-image-uploader-frontend.onrender.com"
-}))
+app.use(cors())
 app.use(express.json())
 const port = process.env.PORT || 3001
 
