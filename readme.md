@@ -1,11 +1,9 @@
 # SnapIt Image Uploader
 
 ## Table of Contents
-- [Aim](https://github.com/daempasha/null-pointer-blog/blob/master/README.md#aim)
-- [Technologies](https://github.com/daempasha/null-pointer-blog/blob/master/README.md#technologies)
-- [Figma](https://github.com/daempasha/null-pointer-blog/blob/master/README.md#figma)
-- [CI/CD Pipeline](https://github.com/daempasha/null-pointer-blog/blob/master/README.md#cicd-pipeline)
-- [CMS](https://github.com/daempasha/null-pointer-blog/blob/master/README.md#cms)
+- [Aim](https://github.com/daempasha/snapit-image-uploader/blob/master/README.md#aim)
+- [Technologies](https://github.com/daempasha/snapit-image-uploader/blob/master/README.md#technologies)
+- [Figma](https://github.com/daempasha/snapit-image-uploader/blob/master/README.md#figma)
 
 # Aim
 This is based on a challenge from [DevChallenges](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx), where I am provided with a Figma file and some assets and have to create this full-stack application based on user stories.
