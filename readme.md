@@ -25,4 +25,4 @@ This is based on a challenge from [DevChallenges](https://devchallenges.io/chall
 
 *Note: This Figma file was not created by me but instead by devchallenges.io*
 
-[<img src="(https://user-images.githubusercontent.com/42499726/208212536-917e2a4d-379c-4423-9155-d455fd6adfed.png">](https://www.figma.com/file/NxbZm3CAovYh89dFXe7EOw/Image-Uploader?node-id=0%3A1&t=HFv1tzn8I61UC7Mi-0)
+[<img src="https://user-images.githubusercontent.com/42499726/208212536-917e2a4d-379c-4423-9155-d455fd6adfed.png">](https://www.figma.com/file/NxbZm3CAovYh89dFXe7EOw/Image-Uploader?node-id=0%3A1&t=HFv1tzn8I61UC7Mi-0)
