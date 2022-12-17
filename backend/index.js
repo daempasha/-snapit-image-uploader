@@ -1,11 +1,11 @@
-import express from "express";
-import cors from 'cors';
-import multer from "multer";
-import dotenv from "dotenv";
+const express = require("express");
+const cors = require('cors');
+const multer = require("multer");
+const dotenv = require("dotenv");
 dotenv.config()
 
-import { MAX_FILE_SIZE } from "./constants";
-import { uploadImage } from "./helpers";
+const { MAX_FILE_SIZE } = require("./constants");
+const { uploadImage } = require("./helpers");
 
 const app = express()
 const upload = multer({
