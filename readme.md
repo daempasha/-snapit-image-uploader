@@ -19,7 +19,7 @@ This is based on a challenge from [DevChallenges](https://devchallenges.io/chall
 - Express
 - Google Cloud Storage (to store images)
 
-# Figma!
+# Figma
 
 *Note: This Figma file was not created by me but instead by devchallenges.io*
 
